@@ -7,6 +7,9 @@ class ApplicationController < ActionController::Base
     @user = User.find(params[:id])
   end
 
+  
+
+
 
 
 
@@ -16,6 +19,6 @@ class ApplicationController < ActionController::Base
     def configure_permit_parameters
       devise_parameter_sanitizer.permit(:sign_up, keys:[:name])
     end
-      
+
 
 end
