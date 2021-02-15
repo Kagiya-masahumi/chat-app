@@ -10,6 +10,7 @@
   float: left;
   width: 50%;
 }
+
 .account-page .account-page__inner:after {
   clear: both;
   content: "";
